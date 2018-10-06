@@ -11,6 +11,7 @@ function ArrayFromAbove(){
 	arr.sort(function(a,b){
 		return a-b;
 	});
+	
 	// Now arr =[1, 1, 1, 1, 2, 2, 2, 4, 5, 10, 20, 20, 391, 392, 591];
 
 	let counter = 0;
@@ -20,25 +21,34 @@ function ArrayFromAbove(){
 		
 		if (arr[i] === arr[i+1]){
 			counter++;
+		
 		//Counting in order to know there are how many the same items for each number.
 		// For example: if arr[0] === arr[1], then counter +1
 			
 		} else if (arr[i] !== arr[i+1] && arr[i] === arr[i-1]){
+		
 		// If the item not equals to the next item and equals to the previous item,
 		// it should stop counting the similar ones, start storing the items to the new array. 
+			
 			let Subarr = [];			
 			Subarr = arr.slice(i-counter, i+1);
+			
 			// Let a Subarr to store the sub array that sliced by arr. 
+			
 			Newarr.push(subarr);
+			
 			// Push Subarr to Newarr.
+			
 			counter = 0;
 			
 		} else {
 			Newarr.push(num);
 		}
 	});
+
 	Newarr.sort(function(a,b){
     		return a-b;
 	});
+
 	console.log(Newarr);
 };
