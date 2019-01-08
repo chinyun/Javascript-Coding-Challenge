@@ -27,3 +27,9 @@ Object that it creates should:
 1.Store the “current value” in the property value. 2.The starting value is set to the argument of the constructor startingValue.
 The read() method should use prompt to read a new number and add it to value.
 In other words, the value property is the sum of all user-entered values with the initial value startingValue.
+
+Question 7:Write the function sumInput() that:
+Asks the user for values using prompt and stores the values in the array.
+Finishes asking when the user enters a non-numeric value, an empty string, or presses “Cancel”.
+Calculates and returns the sum of array items.
+P.S. A zero 0 is a valid number, please don’t stop the input on zero.
