@@ -9,9 +9,11 @@ function sumInput() {
 	while ( true ) {
 		let newValue = prompt('store a number in array?','');
 		
-		// check if user enter cancel, '' or non-numeric value?
+		// Check if user enter cancel, '' or non-numeric value?
 		if( newValue === null || newValue === '' || !isFinite(newValue)) break;
-		storeArr.push(+newValue);
+		
+		// Here we turn newValue to number instead of adding + to prompt, so that we can check if user enter non-numeric value. 
+		storeArr.push( +newValue );
 	}
 	alert( `You entered ${ storeArr }` );
 	
