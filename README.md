@@ -13,23 +13,22 @@ Write a javascript function that takes an array of numbers and a target number. 
 
 Question 3: Write a function that converts HEX to RGB. Then Make that function auto-dect the formats so that if you enter HEX color format it returns RGB and if you enter RGB color format it returns HEX.
 
-Question 4: Create an object calculator with three methods:
-1.read() prompts for two values and saves them as object properties.
-2.sum() returns the sum of saved values.
-3.mul() multiplies saved values and returns the result
-And call these methods by codes like:
- "calculator.read();",
- "alert( calculator.sum() );",
- "alert( calculator.mul() );"
+Question 4: Create an object ( calculator ) with three methods:
+1. read() prompts for two values and saves them as object properties.
+2. sum() returns the sum of saved values.
+3. mul() multiplies saved values and returns the result.
 
-Question 6: Create a constructor function Accumulator(startingValue).
-Object that it creates should:
-1.Store the “current value” in the property value. 2.The starting value is set to the argument of the constructor startingValue.
+Question 6: Create a constructor function. Object that it creates should:
+1.Store the “current value” in the property value. 
+2.The starting value is set to the argument of the constructor.
 The read() method should use prompt to read a new number and add it to value.
-In other words, the value property is the sum of all user-entered values with the initial value startingValue.
+In other words, the value property is the sum of all user-entered values with the initial value.
 
-Question 7:Write the function sumInput() that:
-Asks the user for values using prompt and stores the values in the array.
+Question 7: Write a function that: Asks the user for values using prompt and stores the values in the array.
 Finishes asking when the user enters a non-numeric value, an empty string, or presses “Cancel”.
 Calculates and returns the sum of array items.
 P.S. A zero 0 is a valid number, please don’t stop the input on zero.
+
+Qusetion 8: Write a function that changes dash-separated words like “hello-myfriends” into camel-cased “helloMyfriends”. 
+
+// Bonus: the function removes all dashes if there are more than one, each word after dash becomes uppercased.
