@@ -24,12 +24,12 @@ function camelizes ( str ) {
 		.toLowerCase()
 		.split ( '-' )
 		.map ( 
-			// (word, index ) => index == 0 ? word : word[0].toUpperCase() + word.slice( 1 ) 
 			( word, index ) =>  { 
 				if ( index == 0 ) { return word }
 					word = word[0].toUpperCase() + word.slice( 1 );
 					return word;
 			}
+			// the same mean as '(word, index ) => index == 0 ? word : word[0].toUpperCase() + word.slice( 1 )'
 		)
 		.join( '' );
 }
