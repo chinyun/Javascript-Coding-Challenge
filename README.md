@@ -31,4 +31,6 @@ P.S. A zero 0 is a valid number, please don’t stop the input on zero.
 
 Qusetion 8: Write a function that changes dash-separated words like “hello-myfriends” into camel-cased “helloMyfriends”. 
 
-// Bonus: the function removes all dashes if there are more than one, each word after dash becomes uppercased.
+Bonus: the function removes all dashes if there are more than one, each word after dash becomes uppercased.
+
+Qusetion 9: Collect 6 questions graps essantial concepts of data structure.  
