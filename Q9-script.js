@@ -93,24 +93,3 @@ console.log( usersMapped );
   { fullName: "Pete Hunt", id: 2 },
   { fullName: "Mary Key", id: 3 }]
 */
-
-
-/*
-#6 Search an array and check if there were 'names' with letters user entered.  
-Use a prompt to ask for letters. P.S. It should have an alert when there were no result.
-*/
-
-let users = [ 'Ginny', 'Wilson', 'Claire', 'Debbie', 'Lowrence', 'Jack' ];
-function findUser ( arr ){
-	let searchLetter = prompt( 'Enter letters to search?','' ).toLowerCase( );
-	let result = arr
-		.map( item => item = item.toLowerCase( ) )
-		.filter( item => item.includes( searchLetter ) )
-		.map( item => item = item[0].toUpperCase( ) + item.slice(1) );
-	if ( result == '' ){ 
-		alert (' Sorry, there were no result.');
-	} else { 
-		alert( result ); 
-	}
-}
-findUser( users ) ;
