@@ -31,3 +31,5 @@ Qusetion 8: Write a function that changes dash-separated words like “hello-myf
 Bonus: the function removes all dashes if there are more than one, each word after dash becomes uppercased.
 
 Qusetion 9: Collect 5 questions about how to arrange data of arrays.
+
+Qusetioin 10: 2 questions about how to filter unique items of an array.
