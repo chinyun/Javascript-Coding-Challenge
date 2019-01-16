@@ -22,15 +22,15 @@ Object that it creates should:
 The read() method should use prompt to read a new number and add it to value. 
 In other words, the value property is the sum of all user-entered values with the initial value startingValue.
 
-Question 7: Write a function that: Asks the user for values using prompt and stores the values in the array.
+Question 6: Write a function that: Asks the user for values using prompt and stores the values in the array.
 Finishes asking when the user enters a non-numeric value, an empty string, or presses “Cancel”.
 Calculates and returns the sum of array items.
 P.S. A zero 0 is a valid number, please don’t stop the input on zero.
 
-Qusetion 8: Write a function that changes dash-separated words like “hello-myfriends” into camel-cased “helloMyfriends”. 
+Qusetion 7: Write a function that changes dash-separated words like “hello-myfriends” into camel-cased “helloMyfriends”. 
 
 Bonus: the function removes all dashes if there are more than one, each word after dash becomes uppercased.
 
-Qusetion 9: Collect 5 questions about how to arrange data of arrays.
+Qusetion 8: Collect 5 questions about how to arrange data of arrays.
 
-Qusetioin 10: Include 2 questions about how to filter unique items of an array.
+Qusetioin 9: Include 2 questions about how to filter unique items of an array.
