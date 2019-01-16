@@ -50,5 +50,4 @@ Qusetioin 9: Include 2 questions about how to filter unique items of an array.
 1. Filter unique array members.
 Create a function unique(arr) that should return an array with unique items of arr.
 2. Filter Anagrams. Anagrams are words have the same number of same letters, but in different order.
-array = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"]
-Create a function that clean(array) should returns "nap,teachers,ear" or "PAN,cheaters,era".
+i.e. ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"] should returns ["nap,teachers,ear"] or ["PAN,cheaters,era"].
