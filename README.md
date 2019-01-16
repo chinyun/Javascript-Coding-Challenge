@@ -15,7 +15,7 @@ Question 4: Create an object ( calculator ) with three methods:
 2. sum() returns the sum of saved values.
 3. mul() multiplies saved values and returns the result.
 
-Question 6: Create a constructor function with methods to calculate the sum values that prompts ask.
+Question 5: Create a constructor function with methods to calculate the sum values that prompts ask.
 
 Question 7: Write a function that: Asks the user for values using prompt and stores the values in the array.
 Finishes asking when the user enters a non-numeric value, an empty string, or presses “Cancel”.
