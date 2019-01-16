@@ -1,5 +1,4 @@
-/* #1
-Filter unique array members.
+/* #1 Filter unique array members.
 Create a function unique(arr) that should return an array with unique items of arr.
 */
 let values = ["Hare", "Krishna", "Hare", "Krishna",
@@ -27,8 +26,7 @@ function unique( arr ) {
 alert(  unique( values ) ); // Hare, Krishna, :-O
 
 
-/* #2
-Filter Anagrams. Anagrams are words have the same number of same letters, but in different order.
+/* #2 Filter Anagrams. Anagrams are words have the same number of same letters, but in different order.
 array = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"]
 Create a function that clean(array) should returns "nap,teachers,ear" or "PAN,cheaters,era".
 */
