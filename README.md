@@ -32,17 +32,13 @@ Qusetion 7: Write a function that changes dash-separated words like “hello-myf
 Bonus: the function removes all dashes if there are more than one, each word after dash becomes uppercased.
 
 Qusetion 8: Collect 5 questions about how to arrange data of arrays.
-
-#1 Filter range "in place". 
-Write a function filterRangeInPlace(arr, a, b) that gets an array arr 
+1. Write a function filterRangeInPlace(arr, a, b) that gets an array arr 
 and removes from it all values except those that are between a and b.
 The function should only modify the array. It should not return anything.
-
-#2 Copy and sort array. We have an array of strings array. 
+2. Copy and sort array. We have an array of strings array. 
 Create a function copySorted(arr) that returns a sorted copy of it, 
 but keep original array unmodified.
-
-#3 You have an array of user objects, each one has user.name. 
+3. You have an array of user objects, each one has user.name. 
 Write the code that converts it into an array of names.
 
 #4 Write the function getAverageAge(users) that gets an array of objects
