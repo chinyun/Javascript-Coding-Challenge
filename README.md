@@ -40,12 +40,15 @@ Create a function copySorted(arr) that returns a sorted copy of it,
 but keep original array unmodified.
 3. You have an array of user objects, each one has user.name. 
 Write the code that converts it into an array of names.
-
-#4 Write the function getAverageAge(users) that gets an array of objects
+4. Write the function getAverageAge(users) that gets an array of objects
 with property age and gets the average.
-
-#5 Map to object. You have an array of user objects, each one has name, surname and id.
+5. Map to object. You have an array of user objects, each one has name, surname and id.
 Write the code to create another array from it, of objects with id and fullName, 
 where fullName is generated from name and surname.
 
 Qusetioin 9: Include 2 questions about how to filter unique items of an array.
+1. Filter unique array members.
+Create a function unique(arr) that should return an array with unique items of arr.
+2. Filter Anagrams. Anagrams are words have the same number of same letters, but in different order.
+array = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"]
+Create a function that clean(array) should returns "nap,teachers,ear" or "PAN,cheaters,era".
