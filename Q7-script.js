@@ -1,4 +1,4 @@
-// Write a function that changes dash-separated words like “hello-myfriends” into camel-cased “helloMyfriends”. 
+// Question 7: Write a function that changes dash-separated words like “hello-myfriends” into camel-cased “helloMyfriends”. 
 
 function camelize ( str ) {
 	str.toLowerCase();
